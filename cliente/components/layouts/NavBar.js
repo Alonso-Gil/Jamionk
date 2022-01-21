@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import Link from 'next/link';
 import styled from '@emotion/styled';
+import Image from 'next/image';
 
 // Material UI
 import AppBar from '@mui/material/AppBar';
@@ -71,7 +72,11 @@ const NavBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            LOGO
+            <Link href="/">
+                <a>
+                  <Image src='/youtube.png' width="35" height="35" />
+                </a>
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -122,7 +127,7 @@ const NavBar = () => {
           >
             <Link href="/">
                 <a>
-                  LOGO
+                  <Image src='/youtube.png' width="35" height="35" />
                 </a>
             </Link>
           </Typography>

@@ -1,9 +1,13 @@
 import React from 'react';
+import CarruselInicio from '../components/ui/CarruselInicio';
+import CarruselMarcas from '../components/ui/CarruselMarcas';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Inicio</h1>
-    </div>
+      <>
+        <CarruselInicio />
+        <br />
+        <CarruselMarcas />
+      </>
   )
 }

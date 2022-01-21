@@ -10,10 +10,10 @@ const Layout = ({children}) => {
     const theme = createTheme({
         palette: {
           primary: {
-            main: '#184c7c'
+            main: '#0d0d0d'
           },
           secondary: {
-            main: '#ac8b18'
+            main: '#872024'
           }
         }
       });
@@ -26,7 +26,7 @@ const Layout = ({children}) => {
                     styles={css`
                         a {
                             text-decoration: none;
-                            color: #000;
+                            color: #FFF;
                         }
                     `}
                 />
