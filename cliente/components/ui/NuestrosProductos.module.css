@@ -1,0 +1,24 @@
+.nuestrosProductos {
+    display: grid;
+    /* height: 450px; */
+}
+@media (min-width: 600px) {
+    .nuestrosProductos {
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+.descripcion {
+    text-align: center;
+}
+@media (min-width: 600px) {
+    .descripcion {
+        text-align: left;
+    }
+} 
+
+.productos {
+    display: flex;
+    /* max-height: 450px; */
+    overflow-x: auto;
+}
