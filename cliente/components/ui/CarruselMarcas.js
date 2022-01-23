@@ -21,6 +21,8 @@ const responsive = {
     }
   };
 
+  // XD
+
   const images = [
     {
         id: 1,
