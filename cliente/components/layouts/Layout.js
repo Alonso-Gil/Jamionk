@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import Head from 'next/head';
 import { Global, css } from '@emotion/react';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -41,6 +42,9 @@ const Layout = ({children}) => {
                 <main>
                     {children}
                 </main>
+
+                <Footer />
+
             </>
         </ThemeProvider>
      );
